@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sql-dependency-graph", "src\sql-dependency-graph\sql-dependency-graph.csproj", "{50973172-912F-4F6D-8E84-BE50B5B93FBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__tests__", "__tests__", "{E9D098E7-1FBF-4337-BB3A-E2E28C16F2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sql-dependency-graph-tests", "__tests__\sql-dependency-graph-tests\sql-dependency-graph-tests.csproj", "{2C5A9F5F-32B2-4A13-9F5B-8ACEAF7CC2F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50973172-912F-4F6D-8E84-BE50B5B93FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50973172-912F-4F6D-8E84-BE50B5B93FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50973172-912F-4F6D-8E84-BE50B5B93FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50973172-912F-4F6D-8E84-BE50B5B93FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5A9F5F-32B2-4A13-9F5B-8ACEAF7CC2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5A9F5F-32B2-4A13-9F5B-8ACEAF7CC2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5A9F5F-32B2-4A13-9F5B-8ACEAF7CC2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5A9F5F-32B2-4A13-9F5B-8ACEAF7CC2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C5A9F5F-32B2-4A13-9F5B-8ACEAF7CC2F3} = {E9D098E7-1FBF-4337-BB3A-E2E28C16F2A4}
+	EndGlobalSection
+EndGlobal
